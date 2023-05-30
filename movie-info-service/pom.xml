@@ -9,19 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>at.antonio</groupId>
-	<artifactId>movie-catalog</artifactId>
+	<artifactId>movie-info-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
 
 	<properties>
 		<java.version>17</java.version>
 	</properties>
-
-
-	<modules>
-		<module>movie-catalog-service</module>
-		<module>movie-info-service</module>
-	</modules>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
