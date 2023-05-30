@@ -21,6 +21,7 @@
 	<modules>
 		<module>movie-catalog-service</module>
 		<module>movie-info-service</module>
+		<module>ratings-data-service</module>
 	</modules>
 	<dependencies>
 		<dependency>

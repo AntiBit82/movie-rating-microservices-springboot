@@ -1,10 +1,10 @@
-package at.antonio.moviecatalog;
+package at.antonio.ratingsdataservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MovieCatalogApplicationTests {
+class RatingsDataServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

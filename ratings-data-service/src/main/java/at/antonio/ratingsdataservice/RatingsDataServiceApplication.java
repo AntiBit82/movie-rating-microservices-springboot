@@ -1,13 +1,13 @@
-package at.antonio.moviecatalog;
+package at.antonio.ratingsdataservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MovieCatalogApplication {
+public class RatingsDataServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MovieCatalogApplication.class, args);
+		SpringApplication.run(RatingsDataServiceApplication.class, args);
 	}
 
 }
