@@ -1,4 +1,4 @@
-package at.antonio.ratingsdataservice.model;
+package at.antonio.shared.model;
 
 public class Rating {
     private String movieId;

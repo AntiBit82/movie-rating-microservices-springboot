@@ -1,4 +1,4 @@
-package at.antonio.movieinfo.model;
+package at.antonio.shared.model;
 
 public class Movie {
     private String movieId;

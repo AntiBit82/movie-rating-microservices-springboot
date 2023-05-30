@@ -1,4 +1,4 @@
-package at.antonio.moviecatalog.model;
+package at.antonio.shared.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

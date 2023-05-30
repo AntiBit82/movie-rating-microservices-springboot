@@ -1,6 +1,6 @@
 package at.antonio.ratingsdataservice.controller;
 
-import at.antonio.ratingsdataservice.model.Rating;
+import at.antonio.shared.model.Rating;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

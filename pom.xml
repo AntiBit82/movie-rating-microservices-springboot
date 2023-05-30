@@ -22,7 +22,9 @@
 		<module>movie-catalog-service</module>
 		<module>movie-info-service</module>
 		<module>ratings-data-service</module>
+		<module>shared</module>
 	</modules>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
