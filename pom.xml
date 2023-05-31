@@ -18,13 +18,24 @@
 		<spring-cloud.version>2022.0.3</spring-cloud.version>
 	</properties>
 
-
 	<modules>
 		<module>movie-catalog-service</module>
 		<module>movie-info-service</module>
 		<module>ratings-data-service</module>
 		<module>eureka-discovery-server</module>
 	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-starter-parent</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 	<dependencies>
 		<dependency>
