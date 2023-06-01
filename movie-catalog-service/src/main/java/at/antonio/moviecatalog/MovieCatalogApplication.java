@@ -5,23 +5,25 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
-import org.springframework.web.reactive.function.client.WebClient;
 
 @SpringBootApplication
+//@EnableEurekaClient deprecated and not necessary, dependency will enable it auto
 public class MovieCatalogApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MovieCatalogApplication.class, args);
+	}
+
+
+	/*@Bean
+	public WebClient.Builder getWebclientBuilder() {
+		return WebClient.builder();
+	}*/
 
 	@Bean
 	@LoadBalanced
 	public RestTemplate getRestTemplate() {
 		return new RestTemplate();
-	}
-
-	@Bean
-	public WebClient.Builder getWebclientBuilder() {
-		return WebClient.builder();
-	}
-	public static void main(String[] args) {
-		SpringApplication.run(MovieCatalogApplication.class, args);
 	}
 
 }
